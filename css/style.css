@@ -8117,11 +8117,11 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: xx-small;
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-weight: 700;
     color: #000000;
     position: relative;
@@ -8834,8 +8834,8 @@ textarea.form-control {
       top: -1em;
       color: #b3b3b3; }
     .block-7 .price .number {
-      font-size: 60px;
-      font-weight: 600;
+      font-size: 30px;
+      font-weight: 400;
       color: #000000; }
   .block-7 .excerpt {
     margin-bottom: 10px;
@@ -9964,3 +9964,67 @@ section .section-title {
 
 
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#team{
+  background-image: url('imageedit_1_5509131779.png')!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  
+}
+
+#programs{
+  background-image: url('imageedit_3_2695262471.png')!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+ 
+}
+#about{
+
+  background-image: url('imageedit_1_9330197622.png')!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+
+  
+
+}
+#events{
+  background-image: url('imageedit_1_9330197622.png')!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+ 
+}
+
+::-webkit-scrollbar {
+    width: 0.625em;
+    margin-right: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4B0082;
+    border-radius: 0.3125em;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
