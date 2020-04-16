@@ -10028,7 +10028,7 @@ html{
     margin-right: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #4B0082;
+    background: #1ba12d;
     border-radius: 0.3125em;
     opacity: 0.5;
     filter: alpha(opacity=50);
