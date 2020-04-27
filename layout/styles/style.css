@@ -10087,3 +10087,6 @@ html{
 
 .show {display: block;}
 
+.nospace{
+  width: 150%;
+}
