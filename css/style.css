@@ -8798,7 +8798,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .about-author .desc h3 {
-  font-family : inherit;
+  font-family : inherit !important;
   font-size: 24px; }
 
 .ftco-section {
