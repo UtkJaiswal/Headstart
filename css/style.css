@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+*{
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif;   
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8795,6 +8798,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .about-author .desc h3 {
+  font-family : inherit;
   font-size: 24px; }
 
 .ftco-section {
