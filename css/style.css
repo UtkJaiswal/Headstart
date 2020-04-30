@@ -483,6 +483,8 @@ pre {
   margin-left: 0; }
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
+    margin-left: auto;
+    margin-right: auto;
     padding-right: 0;
     padding-left: 0; }
 
@@ -8026,7 +8028,8 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.8);
   /*font-weight: 800; */
-  font-family: 'Open Sans',Arial,Helvetica,sans-serif;   }
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif; 
+   }
 
 .wrap {
   position: relative;
