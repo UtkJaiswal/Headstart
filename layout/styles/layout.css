@@ -101,7 +101,7 @@ font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after,  .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after,  .sidebar nav a::after{position:absolute; font-family:"'Open Sans',Arial,Helvetica,sans-serif"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 #mainav{}
@@ -182,7 +182,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#57ADC4;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
 .container .sidebar nav a:hover{color:#57ADC4;}
+ 
 
+
+body {
+	font-family : 'Open Sans',Arial,Helvetica,sans-serif;
+}
 
 
 
