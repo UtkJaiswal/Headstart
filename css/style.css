@@ -8853,7 +8853,7 @@ textarea.form-control {
     .block-7 .price .number {
       font-size: 30px;
       font-weight: 400;
-      color: #000000; }
+      color: #007b5e; }
   .block-7 .excerpt {
     margin-bottom: 10px;
     color: #1ba12d;
@@ -10012,12 +10012,13 @@ html{
 }
 #about{
 
-  background-image: url('imageedit_1_4059666104.png')!important;
+/*  background-image: url('imageedit_1_4059666104.png')!important;*/
   background-repeat: no-repeat!important;
   background-size: cover!important;
   background-attachment: fixed!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
+  background-color: #6c757d;
 
   
 
