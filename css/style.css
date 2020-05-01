@@ -3646,9 +3646,15 @@ input[type="button"].btn-block {
       display: flex !important;
       -ms-flex-preferred-size: auto;
       flex-basis: auto;
-      margin-left: 20em; }
+      margin-left: 18em; }
     .navbar-expand-lg .navbar-toggler {
       display: none; } }
+
+@media (min-width: 1024.98px) {
+  .navbar-expand-lg .navbar-collapse {
+  margin-left: 24em;}
+  }  
+
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
